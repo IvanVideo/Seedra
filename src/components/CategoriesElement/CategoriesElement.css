@@ -8,6 +8,11 @@
     margin-right: 12px;
     padding: 0 20px;
     box-sizing: border-box;
+    background-color: #fff;
+}
+
+.categoriesElement:hover {
+    cursor: pointer;
 }
 
 .categoriesElement:last-child {

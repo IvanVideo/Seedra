@@ -3,8 +3,7 @@ import '../../vendor/fonts.css';
 import Header from '../Header/Header';
 import Bunner from '../Bunner/Bunner';
 import Publicity from '../Publicity/Publicity';
-import Categories from '../Categories/Categories';
-
+import Products from '../Products/Products';
 
 function App() {
   return (
@@ -12,7 +11,7 @@ function App() {
       <Header />
       <Bunner />
       <Publicity />
-      <Categories />
+      <Products />
     </div>
   );
 }

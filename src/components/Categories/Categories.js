@@ -4,7 +4,7 @@ import { productsCategory } from '../../constants/constants'
 
 function Categories() {
     return (
-        <section>
+        <div>
             <div className='categories__conteiner'>
                 {
                     productsCategory.map(item => (
@@ -14,7 +14,7 @@ function Categories() {
                     ))
                 }
             </div>
-        </section>
+        </div>
     );
 }
 

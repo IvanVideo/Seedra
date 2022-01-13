@@ -1,0 +1,54 @@
+.card {
+    border: 2px solid #EFEFEF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 28px;
+    height: 512px;
+}
+
+.card__stars {
+    display: flex;
+    margin: 24px 0 10px;
+}
+
+.card__numbers {
+    margin: 0 0 0 15px;
+}
+
+.card__box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.card__button {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #EFEFEF;
+    border-radius: 8px;
+    background-color: #fff;
+    background-image: url('../../img/bascket.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.card__button:hover {
+    cursor: pointer;
+}
+
+.card__about {
+    margin: 0;
+    font-family: "Lexand";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.04em
+}
+
+.card__price {
+    margin: 0;
+    font-family: "Lexand";
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 54px;
+}

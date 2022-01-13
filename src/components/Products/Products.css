@@ -1,0 +1,41 @@
+.products__conteiner {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.products__box {
+    display: flex;
+    justify-content: space-between;
+    padding: 58px 0 40px;
+
+}
+
+.products__title {
+    margin: 0;
+    font-family: "Lexand";
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: -0.05em;
+}
+
+.products__button {
+    width: 155px;
+    height: 51px;
+    border: 1px solid #EFEFEF;
+    border-radius: 8px;
+    color: #359740;
+    background-color: white;
+}
+
+.products__button:hover {
+    cursor: pointer;
+}
+
+.products__items {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(auto, 512px);
+    gap: 30px;
+    margin-top: 32px;
+}
