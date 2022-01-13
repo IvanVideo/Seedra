@@ -5,6 +5,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 92px;
 }
 
 .recommendations__title {
@@ -32,6 +33,6 @@
     position: absolute;
     width: 466px;
     height: 465px;
-    bottom: 10px;
+    bottom: 100px;
     right: 10px;
 }
