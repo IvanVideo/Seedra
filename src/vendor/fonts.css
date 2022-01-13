@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Lexand ';
+    src: url('./fonts/Lexend-SemiBold.ttf');
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Lexand';
+    src: url('./fonts/Lexend-Medium.ttf');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Lexand';
+    src: url('./fonts/Lexend-Light.ttf');
+    font-style: normal;
+    font-weight: 300;
+}
