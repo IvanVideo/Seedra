@@ -1,0 +1,25 @@
+.categoriesElement {
+    min-width: 110px;
+    height: 72px;
+    border: 2px solid #EFEFEF;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.categoriesElement:last-child {
+    margin-right: 0;
+}
+
+.categoriesElement__img {
+    width: 24px;
+    height: 24px;
+}
+
+.categoriesElement__name {
+    margin: 0;
+    margin-left: 10px;
+}
