@@ -6,6 +6,7 @@ import Publicity from '../Publicity/Publicity';
 import Products from '../Products/Products';
 import Blog from '../Blog/Blog';
 import Slider from '../Slider/Slider';
+import Recommendations from '../Recommendations/Recommendations';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Products />
       <Blog />
       <Slider />
+      <Recommendations />
     </div>
   );
 }
