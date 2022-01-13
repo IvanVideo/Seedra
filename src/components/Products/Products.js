@@ -8,7 +8,7 @@ function Products() {
         <section>
             <div className='products__conteiner'>
                 <div className='products__box'>
-                    <p className='products__title'>Our products.</p>
+                    <h2 className='products__title'>Our products.</h2>
                     <button className='products__button'>View all (12)</button>
                 </div>
                 <Categories />

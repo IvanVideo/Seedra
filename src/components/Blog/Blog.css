@@ -1,0 +1,141 @@
+.blog__conteiner {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.blog__box {
+    display: flex;
+    justify-content: space-between;
+    padding: 114px 0 42px;
+}
+
+.blog__title {
+    margin: 0;
+    font-family: "Lexand";
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: -0.05em;
+}
+
+.blog__button {
+    width: 155px;
+    height: 51px;
+    border: 1px solid #EFEFEF;
+    border-radius: 8px;
+    color: #359740;
+    background-color: white;
+}
+
+.blog__button:hover {
+    cursor: pointer;
+}
+
+.blog__items {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(2, 300px);
+    gap: 30px;
+}
+
+.item-1 {
+    position: relative;
+    background-color: #EAF1EB;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.item-2 {
+    position: relative;
+    background-color: #EFF2F8;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.item-3 {
+    position: relative;
+    background-color: #EFF2F8;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.item-4 {
+    position: relative;
+    background-color: #EFF2F8;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.item__time {
+    display: flex;
+}
+
+.item__date {
+    margin: 0;
+    font-family: "Lexand";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.item__title {
+    margin: 8px 0 0;
+    font-family: "Lexand";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+.item__title_1 {
+    width: 372px;
+}
+
+.item__about {
+    margin: 4px 0 0;
+    font-family: "Lexand";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #70737C;
+}
+
+.item__about_1 {
+    width: 400px;
+}
+
+.item__button {
+    width: 106px;
+    height: 51px;
+    background-color: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #359740;
+    font-family: "Lexand";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 178.19%;
+    margin-top: 14px;
+}
+
+.item__button:hover {
+    cursor: pointer;
+}
+
+.item__img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.item__img-2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

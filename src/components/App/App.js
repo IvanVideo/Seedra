@@ -4,6 +4,8 @@ import Header from '../Header/Header';
 import Bunner from '../Bunner/Bunner';
 import Publicity from '../Publicity/Publicity';
 import Products from '../Products/Products';
+import Blog from '../Blog/Blog';
+import Slider from '../Slider/Slider';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Bunner />
       <Publicity />
       <Products />
+      <Blog />
+      <Slider />
     </div>
   );
 }
