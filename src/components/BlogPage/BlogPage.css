@@ -1,7 +1,7 @@
 .blogPage__conteiner {
     width: 1110px;
     margin: 0 auto;
-    padding-top: 32px;
+    padding: 32px 0 83px;
 }
 
 .blogPage__box {
@@ -36,4 +36,27 @@
     line-height: 28px;
     text-align: center;
     color: #1F2533;
+}
+
+.blogPage__input {
+    width: 825px;
+    height: 64px;
+    border: 1px solid #EFEFEF;
+    box-sizing: border-box;
+    border-radius: 71px;
+    font-family: "Lexand";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 178.19%;
+    padding-left: 60px;
+    margin: 19px 0 34px;
+}
+
+.blogPage__select {
+    width: 258px;
+    height: 63px;
+    border: 1px solid #EFEFEF;
+    box-sizing: border-box;
+    border-radius: 71px;
+    margin-left: 20px;
 }
