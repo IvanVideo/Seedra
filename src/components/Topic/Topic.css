@@ -1,0 +1,24 @@
+.topic__conteiner {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.topic__main {
+    position: relative;
+    margin-top: 32px;
+    border-top: 1px solid #EFEFEF;
+    display: flex;
+}
+
+.topic__time {
+    position: absolute;
+    display: flex;
+    background-color: #fff;
+    padding-right: 10px;
+    top: -12px;
+}
+
+.topic__item {
+    width: 350px;
+    height: 630px;
+}

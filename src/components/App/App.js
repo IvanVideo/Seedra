@@ -10,6 +10,7 @@ import Slider from '../Slider/Slider';
 import Recommendations from '../Recommendations/Recommendations';
 import Footer from '../Footer/Footer';
 import BlogPage from '../BlogPage/BlogPage';
+import Topic from '../Topic/Topic';
 
 
 function App() {
@@ -17,8 +18,10 @@ function App() {
     <div>
       <Header />
       <Routes>
-        <Route path='/' element={<BlogPage /> }>
-        {/* <Bunner />
+        <Route path='/' element={<Topic />}>
+
+        {/* <BlogPage /> 
+        <Bunner />
         <Publicity />
         <Products />
         <Blog />
